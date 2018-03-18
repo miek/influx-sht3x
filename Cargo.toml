@@ -1,0 +1,10 @@
+[package]
+name = "influx-sht3x"
+version = "0.1.0"
+authors = ["Mike Walters <mike@flomp.net>"]
+
+[dependencies]
+influx_db_client = "*"
+linux-embedded-hal = "0.1.1"
+sht3x = { git = "https://github.com/miek/sht3x-rs" }
+sys-info = "*"
